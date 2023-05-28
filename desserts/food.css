@@ -12,7 +12,7 @@
 
 .nav{
     grid-area: nav;
-    background-color: #a41e2c;
+    background-color: rgb(224, 161, 174);
     color: aliceblue;
 }
 
@@ -26,7 +26,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #92222d;
+    background-color: rgb(211, 145, 158);
     top: 0;
     width: 100%;
   }
@@ -53,13 +53,13 @@ p{
 
 
 .content1{
-    background-color: #c63556;
+    background-color: black;
     grid-area: content1;
     height: 300px;
 }
 
 .content2{
-    background-color:#ad2f40;
+    background-color:rgb(235, 183, 198);
     font-size: 17px;
     text-align: center;
     grid-column: 3 / 5;
@@ -67,7 +67,7 @@ p{
 }
 
 .content3{
-    background-color:#c23944;
+    background-color:rgb(235, 183, 198);
     font-size: 17px;
     text-align: center;
     padding-right: 5%;
@@ -77,7 +77,7 @@ p{
 }
 
 .food1{
-    background-color: #6b0e1b;
+    background-color: rgb(211, 145, 158);
     padding: 30px;
     margin: 30px;
     color: white;
@@ -86,7 +86,7 @@ p{
 }
 
 .food2{
-    background-color: #6b0e1b;
+    background-color: rgb(211, 145, 158);
     padding: 30px;
     margin: 30px;
     color: white;
@@ -105,7 +105,7 @@ p{
 }
 
 .dessert{
-    background-color: #841520;
+    background-color: rgb(198, 133, 146);
     color: white;
     padding: 20px;
     grid-area: header;
@@ -124,14 +124,14 @@ p{
 
 .para{
     color: black;
-    background-color: #9a1c28;
+    background-color: rgb(221, 161, 172);
     grid-area: text1;
 
  
 }
 
 .piri{
-    background-color: #a41e2c;
+    background-color: rgb(230, 171, 184);
     color: #1e0909;
     grid-area: para;
     text-align: center;

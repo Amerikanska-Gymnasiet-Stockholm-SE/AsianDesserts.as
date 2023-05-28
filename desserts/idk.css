@@ -12,7 +12,7 @@ html, body {
 }
 
 .asian{
-    background-color:  #eabdbf;
+    background-color:  #e8b4b7;
     position: relative;
     top: -22px;
 }
@@ -27,7 +27,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e2afb2;
+    background-color: #dfa6a9;
     top: 0;
     width: 100%;
   }
@@ -86,7 +86,7 @@ header {
 .puru1{
     margin: 10px;
     padding: 15px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     color: white;
 
@@ -134,7 +134,6 @@ p{
     position: relative;
     top: -79.9px;
     height: 60px;
-
 }
 
 .ccaramel{
@@ -148,3 +147,6 @@ p{
     column-gap: 5px;
 }
 
+body{
+    background-color:#fef7f7;
+}

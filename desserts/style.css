@@ -11,7 +11,7 @@
     text-decoration: overline;
     font-size: 30px;
     text-align: start;
-    text-shadow: 4px 4px 6px rgb(104, 17, 56);
+    text-shadow: 4px 4px 6px #7f4a59;
     font-family: 'great Vibes', cursive;
    
 }
@@ -20,7 +20,7 @@
  column-width: 90px; 
  column-count: 3;
  column-gap: 2em;
- column-rule: 2.5px solid black; 
+ column-rule: 2.5px solid rgb(205, 139, 139); 
  color: rgb(0, 0, 0);
 
 }
@@ -39,7 +39,7 @@
     column-count: 2;
     column-gap: 2em;
     column-rule: 1px solid rgb(255, 255, 255);
-    background-color: rgb(161, 31, 62); 
+    background-color: #e8b4b7; 
     color: rgb(255, 255, 255);
     padding-left: 50px; 
     padding-top: 1em; 
@@ -50,7 +50,7 @@
     column-width: 90px; 
     column-count: 2;
     column-gap: 2em;
-    column-rule: 2px solid rgb(46, 47, 104);
+    column-rule: 2px solid rgb(205, 139, 139);
     padding-left: 50px; 
     padding-top: 2.5em;  
    }
@@ -67,7 +67,7 @@
 
 }
 header {
-    background-color: rgb(161, 31, 62);
+    background-color: #e6aeb1;
 }
 
 header::after{
@@ -114,7 +114,7 @@ nav a::before{
     display: block;
     height: 5px;
     width: 100%;
-    background-color: black;
+    background-color: #c48184;
 
     position: absolute;
     top: 0;
@@ -128,8 +128,10 @@ nav a:hover::before{
 }
 
 
-.bleh{
-    border: 0.5em dashed rgb(255, 172, 203);
+hr{
+    border: 0.5em;
+    border-style: dashed;
+    color: #dcadaf;
 }
 
 
@@ -169,20 +171,16 @@ nav a:hover::before{
     
 }
 
-
-.bye{
-   border: 0.5em dashed; 
-   background: linear-gradient( to right, black 30%, rgb(242, 145, 181));
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Great+Vibes&display=swap');
 .tutu{
     text-align: center;
+    color: rgb(170, 115, 115);
 }
 
 .nana{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 1em;
+    color: #9e6c6f;
 }
 
